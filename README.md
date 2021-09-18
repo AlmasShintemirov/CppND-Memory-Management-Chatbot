@@ -1,7 +1,6 @@
 # CPPND: Memory Management Chatbot
 
-This is the project for the third course in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213): Memory Management.
-
+This is my personal solution for the third course project, Memory Management Chatbot, in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213) program. 
 <img src="images/chatbot_demo.gif"/>
 
 The ChatBot code creates a dialogue where users can ask questions about some aspects of memory management in C++. After the knowledge base of the chatbot has been loaded from a text file, a knowledge graph representation is created in computer memory, where chatbot answers represent the graph nodes and user queries represent the graph edges. After a user query has been sent to the chatbot, the Levenshtein distance is used to identify the most probable answer. The code is fully functional as-is and uses raw pointers to represent the knowledge graph and interconnections between objects throughout the project.
@@ -28,12 +27,12 @@ Your goal is to use the course knowledge to optimize the ChatBot program from a 
 
 ## Basic Build Instructions
 
-1. Clone this repo.
+1. Clone this repo (use my_project branch for cloning my completed project or master branch for original project assignment files from Udacity https://github.com/udacity/CppND-Memory-Management-Chatbot)
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./membot`.
 
-## Project Task Details
+## Project Task Details (original project source files are forked into the master branch from )
 
 Currently, the program crashes when you close the window. There is a small bug hidden somewhere, which has something to do with improper memory management. So your first warm-up task will be to find this bug and remove it. This should familiarize you with the code and set you up for the rest of the upcoming tasks. Have fun debugging!
 
